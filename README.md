@@ -1,6 +1,11 @@
 # Blaq's Medical Chatbot
 ### Powered by 🅱🅻🅰🆀
 
+![image](https://github.com/Blaqadonis/medical-chatbot/assets/100685852/54b1dce2-62e3-4660-adc0-8becbf129e6b) ![image](https://github.com/Blaqadonis/medical-chatbot/assets/100685852/56a098d3-fa4f-4be7-bc8a-dbda9061cf49) ![image](https://github.com/Blaqadonis/medical-chatbot/assets/100685852/d2d0eaea-ae5a-4157-bee8-74d2bfd62323)
+
+
+
+
 Blaq's Medical Chatbot is an innovative tool designed to provide quick and reliable medical information. Utilizing state-of-the-art language models and vector stores, this bot answers user queries with precision. This README guides you through setup and usage.
 
 ## Table of Contents
