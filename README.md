@@ -1,41 +1,42 @@
-
-
 # Blaq's Medical Chatbot
 ### Powered by 🅱🅻🅰🆀
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Blaq's Medical Chatbot is a powerful tool designed to provide medical information by answering user queries using state-of-the-art language models and vector stores. This README will guide you through the setup and usage of the bot.
+Blaq's Medical Chatbot is an innovative tool designed to provide quick and reliable medical information. Utilizing state-of-the-art language models and vector stores, this bot answers user queries with precision. This README guides you through setup and usage.
 
 ## Table of Contents
 
-- [Introduction](#medical-bot)
-- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
+## Introduction
+
+Blaq's Medical Chatbot leverages advanced technology to deliver medical insights efficiently. It's built using a quantized language model, making it compatible with CPU environments, thus broadening its accessibility.
+
 ## Prerequisites
 
-Before you can start using Blaq's Medical Chatbot, make sure you have the following prerequisites installed on your system:
+Before starting, ensure you have:
 
 - Python 3.6 or higher
-- Required Python packages (you can install them using pip):
+- Required Python packages (install via pip):
     - langchain
     - chainlit
     - sentence-transformers
     - faiss
-    - PyPDF2 (for PDF document loading)
+    - PyPDF (for PDF document loading)
 
 ## Installation
 
-1. Clone this repository to your local machine.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Blaqadonis/medical-chatbot.git
+   cd langchain-medical-bot
 
-    ```bash
-    git clone https://github.com/Blaqadonis/medical-chatbot.git
-    cd langchain-medical-bot
     ```
 
 2. Create a Python virtual environment (optional but recommended):
@@ -51,7 +52,7 @@ Before you can start using Blaq's Medical Chatbot, make sure you have the follow
     pip install -r requirements.txt
     ```
 
-4. Download the required language models and data. Please refer to the Langchain documentation for specific instructions on how to download and set up the language model and vector store.
+4. Download the quantized language model for CPU compatibility: [huggingface model](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0pFYmtnQXQ0U2RSMlUwX1NXWnBablJneFJpUXxBQ3Jtc0trbC01VlZ5RmFhYXhZWV8yQmJ4RWxHNFBfWUdfWHBlalN0SGVUakdUbnE4MmNWclUtMFFNa1JLZTNUSzJuZ2hCc0hUTjdNa3hsQzFJU3ZoMWN4eGdKODVVVzc3RzV4MmxYalFvUUJWUGZBYi1Obmhldw&q=https%3A%2F%2Fhuggingface.co%2FTheBloke%2FLlama-2-7B-Chat-GGML%2Fblob%2Fmain%2Fllama-2-7b-chat.ggmlv3.q8_0.bin&v=kXuHxI5ZcG0)
 
 5. Set up the necessary paths and configurations in your project, including the `DB_FAISS_PATH` variable and other configurations as per your needs.
 
