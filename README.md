@@ -81,6 +81,13 @@ Blaq's Medical Chatbot can be used for answering medical-related queries. To use
 
 5. The bot can be customized to return specific information based on the query and context provided.
 
+## Screenshots
+
+- **UI:**
+![image](https://github.com/Blaqadonis/medical-chatbot/assets/100685852/0c7e71ad-870d-4266-b9ed-0f8232da19f0)
+
+
+
 ## Contributing
 
 Contributions to Blaq's Medical Chatbot are welcome! If you'd like to contribute to the project, please follow these steps:
