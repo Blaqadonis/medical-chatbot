@@ -120,10 +120,4 @@ Contributions to Blaq's Medical Chatbot are welcome! If you'd like to contribute
 
 5. Your pull request will be reviewed, and if approved, it will be merged into the main codebase.
 
-## License
 
-This project is licensed under the MIT License.
-
----
-
-For more information on how to use, configure, and extend the Llama2 Medical Bot, please refer to the Langchain documentation or contact the project maintainers.
